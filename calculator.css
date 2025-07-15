@@ -1,0 +1,82 @@
+html, body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-width: 440px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#calculator{
+    width: 90%;
+    height: 90%;
+    min-width: 440px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#screen{
+    width: 85%;
+    height: 15%;
+    border: solid;
+    border-width: 5px;
+    border-style: double;
+    margin-bottom:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#screen label{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#modifiers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 10%;
+}
+
+#modifiers button{
+    width: 20%;
+    height: 90%;
+    border-radius: 20%;
+}
+
+#numberPad{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 60%;
+}
+
+#numberPad button{
+    width: 30%;
+    height: 20%;
+    border-radius: 20%;
+}
+
+.numbers{
+    font-weight: bolder;
+    font-size: x-large;
+}
